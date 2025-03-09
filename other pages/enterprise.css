@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.enterprise-linka{
+    margin: 50px 0;
+}
+.enterprise-linka a{
+    text-decoration: none;
+    color: #A8B7C3;
+}
+.enterprise-first-sec{
+    width: 60%;
+    margin: auto;
+}
+.enterprise-hero-sec{
+    display: flex;
+}
+.enterprise-hero-text h2{
+    color: #0B3558;
+    font-size: 4rem;
+}
+.enterprise-hero-text p{
+    font-size: 1.5rem;
+    color: #516F8E;
+    margin: 20px 0;
+}
+.enterprise-hero-btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.enterprise-hero-i img{
+    width: 700px;
+}
+.marquee{
+    background-color: #fff;
+}
+.accom-text{
+    text-align: center;
+    margin: 40px 0;
+}
+.accom-text h2{
+    font-size: 3.3rem;
+    color: #0B3558;
+
+}
+.accom-card{
+    border: thin solid #D4E0ED;
+    border-radius: 20px;
+    width: 350px;
+    height: 330px;
+    padding: 15px;
+    position: relative;
+}
+.accom-card-a{
+    text-decoration: none;
+}
+.accom-card-a h3{
+    font-size: 1.8rem;
+    color: #0B3558;
+}
+.accom-card-a p{
+    color: #516F8E;
+    font-size: 1.3rem;
+    margin: 25px 0;
+}
+.accom-card-sp{
+    color: #286BFF;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    bottom: 30px;
+    position: absolute;
+}
+.fl-accom-card{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.equip-team-card{
+    border-radius: 20px;
+    width: 350px;
+    height: 330px;
+    padding: 20px;
+    position: relative;
+}
+.card-color1{
+    border: thin solid #0B3558;
+}
+.team-card{
+    text-decoration: none;
+}
+.team-card img{
+    width: 200px;
+    margin: 20px 0;
+}
+.equip-team-rate h3{
+    font-size: 5rem;
+    color: #0B3558;
+}
+.equip-team-rate p{
+    font-size: 1.4rem;
+    color: #0B3558;
+}
+.team-rate-sp{
+    position: absolute;
+    bottom: 30px;
+    color: #000;
+}
+.card-color2{
+    border: thin solid #FAA602;
+}
+.card-color3{
+    border: thin solid #1B4EBA;
+}
+.rate2 h3{
+    color: #FAA602;
+}
+.rate3 h3{
+    color: #1B4EBA;
+}
+.fl-equip-team-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.team-card .stanley-steemer{
+    width: 150px;
+}
+.equip-sec{
+    margin: 100px 0;
+}
+.legal-card{
+    width: 300px;
+}
+
+.legal-i img{
+    width: 300px;
+    border-radius: 15px;
+}
+.legal-text h3{
+    color: #0B3558;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+.legal-text p{
+    color: #516F8E;
+    font-size: 1rem;
+}
+.legal-card-p{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.hackerone-yt-vid{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.hackerone-yt-vid img{
+    z-index: 1;
+    width: 550px;
+    border-radius: 15px;
+}
+.hackerone-yt-vid .fa-youtube{
+    position: absolute;
+    z-index: 3;
+    font-size: 5rem;
+    left: 40%;
+}
+.hackerone-text .hackerone-p1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.hackerone-sp1{
+    font-size: 1rem;
+    font-size: 100;
+}
+.hackerone-sp2{
+    font-size: 1rem;
+    font-weight: normal;
+}
+.hackerone-sec{
+    width: 70%;
+    margin: 100px auto;
+}
+.hackerone-text .hackerone-p2{
+    color: #516F8E;
+    font-size: 1.5rem;
+}
+.hackerone-head{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 20px 0;
+}
+.hackerone-head-i img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.hackerone-head-text h3{
+    font-size: 1rem;
+    color: #0B3558;
+}
+.hackerone-head-text p{
+    font-size: 1rem;
+    color: #516F8E;
+    margin: 10px 0;
+}
+.hackerone-head-footer{
+    background-color: #0B3558;
+    width: 100%;
+    height: 50px;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.hackerone-head-footer p{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.hackerone-head-footer .fa-arrow-right-long{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.hackerone-sec-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 50px;
+    border: thin solid #e5e5ea;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.trusted-plat-sec{
+    background-color: #0B3558;
+}
+.trusted-plat {
+    padding: 50px 0;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.trusted-plat h3{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.trusted-plat p{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 20px 0;
+}
+.trusted-plat-sp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    margin: 20px 0;
+}
+.trusted-plat-i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+}
+.trusted-plat-i img{
+    width: 100px;
+}
+.what-cus-says{
+    width: 70%;
+    margin: 50px auto;
+}
+.what-cus-says-h{
+    text-align: center;
+}
+.what-cus-says-h h3{
+    font-size: 3.5rem;
+    color: #0B3558;
+}
+.what-cus-says-card{
+    width: 300px;
+    border: thin solid #D4E0ED;
+    border-radius: 10px;
+    padding: 15px;
+    height: 100%;
+}
+.what-cus-says-card-i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.what-cus-says-card-i img{
+    width: 100px;
+}
+.what-cus-says-card-small-text h3{
+    font-size: 0.9rem;
+    color: #516F8E;
+}
+.what-cus-says-card-small-text p{
+    font-size: 0.7rem;
+    color: #516F8E;
+}
+.what-cus-says-card .p-pq{
+    font-size: 1.5rem;
+    color: #516F8E;
+    margin-bottom: 10px;
+}
+.p-what-cus-say{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.what-cus-says-card-up{
+    background-color: #F8F9FB;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+   margin-bottom: 20px;
+}
+.what-cus-says-card-gp{
+    height: 100%;
+}
+.cont-sale{
+    width: 700px;
+    padding: 50px;
+}
+.cont-sale .h3-sale-text{
+    font-size: 2rem;
+    color: #0B3558;
+    margin: 30px 0;
+}
+.cont-sale-text h3{
+    font-size: 4rem;
+    color: #0B3558;
+}
+.cont-sale-text .spanp-p{
+    font-size: 1rem;
+    color: #516F8E;
+}
+.rect-cont-sale{
+    width: 100%;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #286BFF;
+    margin-bottom: 50px;
+}
+.contact-sale-sec{
+    background-color: #F8F9FB;
+    padding: 24px 0;
+}
+.flex-contact6-sale{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 2rem;
+}
+.form-contact-sale{
+    box-shadow: 0 4px 8px 0  #0000003a;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 700px;
+    padding: 25px;
+    margin: 50px 0;
+    height: 100%;
+}
+.form-card-sales-h h3{
+    font-size: 3rem;
+    color: #0B3558;
+}
+.form-card-sales-h p{
+    color: #516F8E;
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.input-flx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.input-share{
+    width: 50%;
+    height: 50px;
+    border: thin solid #A8B7C3;
+    border-radius: 7px;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.input-full{
+    width: 100%;
+    height: 70px;
+    border: thin solid #A8B7C3;
+    border-radius: 7px;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.input-full1{
+    width: 100%;
+    height: 120px;
+    border: thin solid #A8B7C3;
+    border-radius: 7px;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+.submit-btn{
+    width: 100%;
+    padding: 20px;
+    background-color: #286BFF;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+.alinks{
+    color: #286BFF;
+}
+
+@media(max-width:790px){
+    .fl-accom-card{
+        margin: 20px 0;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .enterprise-first-sec{
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+    .enterprise-hero-sec{
+        flex-wrap: wrap;
+    }
+    .enterprise-hero-i img{
+        width: 100%;
+    }
+    .enterprise-hero-text h2{
+        font-size: 1.6rem;
+    }
+    .enterprise-hero-text p{
+        font-size: 1rem;
+    }
+    .fl-equip-team-card{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .accom-text h2{
+        font-size: 1.4rem;
+    
+    }
+    .hackerone-sec-p{
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 20px;
+        overflow: hidden;
+    }
+    .hackerone-yt-vid img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .trusted-plat-i{
+        gap: 1rem;
+    }
+    .trusted-plat-i img{
+        width: 50px;
+    }
+    .what-cus-says{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+    .what-cus-says-h h3{
+        font-size: 1.5rem;
+    }
+    .trusted-plat h3{
+        font-size: 1.5rem;
+    }
+    .trusted-plat p{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .flex-contact6-sale{
+        flex-wrap: wrap;
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+    }
+}

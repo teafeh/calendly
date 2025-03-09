@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.c-c-card{
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+.c-ard-j{
+    width: 250px;
+    background-color: #fff;
+}
+.p-h-sec{
+    background-color: #F8F9FB;
+}
+.h-p-sec{
+    text-align: center;
+    padding: 50px 0;
+}
+.h-p-sec h1{
+    font-size: 4rem;
+    color: #0B3559;
+    margin-bottom: 20px;
+}
+.h-p-sec p{
+    font-size: 1.1rem;
+    color: #486788;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.b-bt-n{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+.b-bt{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+.n1{
+    background-color: #006BFF;
+    color: #fff;
+}
+.n2{
+    border: thin solid #486788;
+    color: #486788;
+}
+.sc-meeting-p{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.sc-meeting{
+    border: thin solid #D4E0ED;
+    margin: 50px 0;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 270px;
+    background-color: #fff;
+}
+.sc-meeting img{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    align-items: center;
+}
+.sc-meeting h2{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #0B3559;
+    margin: 20px 0;
+}
+.sc-sec{
+    padding-bottom: -50px;
+    background-color: #F8F9FB;
+}
+.marquee{
+    background-color: #F8F9FB;
+}
+.fle-x-hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 2rem;
+    padding: 60px 0;
+}
+.d-724-3{
+    width: 600px;
+    border-radius: 20px;
+}
+.text-fle-xhr{
+    align-items: start;
+}
+.text-fle-xhr h3{
+    font-size: 3rem;
+    color: #0B3559;
+    margin-bottom: 20px;
+}
+.text-fle-xhr p{
+    font-size: 1.3rem;
+    color: #486788;
+    margin-bottom: 25px;
+}
+.text-fle-xhr a{
+    text-decoration: none;
+    color: #0B3559;
+    margin-bottom: 10px;
+}
+.sp-acces{
+    background-color: #E6F0FF;
+    color: #004EBA;
+    padding: 5px;
+    width: 150px;
+    border-radius: 10px;
+}
+.sp-a-sce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+.sp-aa-s h2{
+    font-size: 4rem;
+    color: #0B3559;
+    margin: 30px 0;
+}
+.sp-aa-s p{
+    color: #486788;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.acc-int-s{
+    background-color: #F8F9FB;
+}
+.acc-int-sec{
+    width: 75%;
+   margin: auto;
+   padding: 100px 0; 
+}
+.acc-integration h2{
+    font-size: 4rem;
+    color: #0B3559;
+    margin: 30px 0;
+}
+.acc-integration p{
+    color: #486788;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+.f-calen-i{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 40px 0;
+}
+.f-calen-c{
+    text-decoration: none;
+}
+.f-calen-c h3{
+    font-size: 1.4rem;
+    color: #0B3559;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.f-calen-c p{
+    font-size: 1.1rem;
+    color: #486788;
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+.f-calen-c img{
+    width: 550px;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+}
+.fa-calen-i{
+    border: thin solid #D4E0ED;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+    width: 510px;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+}
+.fav-tools{
+    background-color: #0B3558;
+    padding: 50px;
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.fav-tool-t h2{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.fav-tool-t p{
+    color: #fff;
+    font-size: 1rem;
+}
+.inc-eff{
+    background-color: #fff;
+    padding: 50px 0;
+}
+.acces-span{
+    text-align: center;
+}
+.acces-span h3{
+    font-size: 4rem;
+    color: #0B3558;
+    margin: 30px 0;
+}
+.acces-span p{
+    color: #486788;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+.work-sm{
+    background-color: #F8F9FB;
+    text-align: center;
+    padding: 60px 0;
+}
+.work-sm h3{
+    font-size: 4rem;
+    color: #0B3558;
+    margin: 20px 0;
+}
+.work-sm p{
+    color: #486788;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.moni-org{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 55%;
+    margin: auto;
+    border: thin solid #E6F0FF;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+.monitor-org-t{
+    text-align: start;
+    padding: 20px;
+    width: 300px;
+    height: 100%;
+}
+.monitor-org-t h3{
+    color: #0B3558;
+    font-size: 1.3rem;
+}
+.monitor-i{
+    margin-top: 10px;
+}
+.monitor-i img{
+    width: 700px;
+}
+.monitor-org-t a{
+    text-decoration: none;
+}
+.stay-secure-c{
+    text-align: start;
+    width: 350px;
+    height: 400px;
+    border: thin solid #D4E0ED;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.s-s-t{
+    padding: 20px;
+}
+.s-s-header h3{
+    font-size: 1.5rem;
+    color: #0B3558;
+}
+.s-s-t p{
+    color: #486788;
+}
+.s-s-i img{
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+}
+.p-secure-stay{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.ah-links{
+   color: #006BFF; 
+   text-decoration: none;
+   margin-bottom: 40px;
+}
+@media(max-width:790px){
+    .p-secure-stay{
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    .s-s-i img{
+        width: 100%;
+    }
+    .stay-secure-c{
+        width: 350px;
+        height: 400px;
+        border: thin solid #D4E0ED;
+        background-color: #fff;
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    .fav-tools{
+        padding: 20px;
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .inc-eff{
+        padding: 20px 0;
+    }
+    .acces-span h3{
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+    .acces-span p{
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    .work-sm{
+        padding: 30px 0;
+    }
+    .work-sm h3{
+        font-size: 1.6rem;
+        margin: 10px 0;
+    }
+    .work-sm p{
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .p-h-sec h1{
+        font-size: 1.8rem;
+    }
+    .fle-x-hr{
+        display: block;
+        width: 90%;
+        margin: auto;
+        padding: 30px 0;
+    }
+    .d-724-3{
+        width: 90%;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .b-bt-n{
+        flex-wrap: wrap;
+       
+    }
+    .sc-meeting-p{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .sc-meeting{
+        margin: 10px 0;
+    }
+    .moni-org{
+        justify-content: space-between;
+        width: 70%;
+        margin: auto;
+        border: thin solid #E6F0FF;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .monitor-org-t{
+        width: 90%;
+    }
+    .monitor-i img{
+        width: 100%;
+    }
+    .text-fle-xhr h3{
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+    .text-fle-xhr p{
+        font-size: 1rem;
+        margin-bottom: 12px;
+    }
+    .sp-aa-s h2{
+        font-size: 2rem;
+        margin: 15px 0;
+    }
+    .sp-aa-s p{
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .b-bt{
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    .acc-int-sec{
+        width: 100%;
+       padding: 30px; 
+    }
+    .acc-integration h2{
+        font-size: 2rem;
+        margin: 15px 0;
+    }
+    .acc-integration p{
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    .f-calen-i{
+        gap: 1rem;
+        padding: 20px 0;
+    }
+    .fa-calen-i{
+        width: 240px;
+        height: 300px;
+    }
+    .f-calen-c img{
+        width: 250px;
+        position: absolute;
+        bottom: 0;
+        left: -20px;
+    }
+    .c-c-card{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
